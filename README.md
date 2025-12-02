@@ -1,6 +1,5 @@
 # django-admin-command-center (MVP with Celery, React, DDD-ish)
 
-This ZIP contains:
 
 - `backend/`: Django example project + `admin_command_center` reusable app
 - `frontend/`: React + Vite admin UI that builds into the Django app's static files
