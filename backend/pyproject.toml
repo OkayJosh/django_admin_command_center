@@ -1,0 +1,17 @@
+[project]
+name = "django-admin-command-center-example"
+version = "0.1.0"
+description = "Example project for django-admin-command-center with Celery and React UI"
+requires-python = ">=3.10"
+dependencies = [
+    "Django>=4.2",
+    "djangorestframework>=3.15",
+    "channels>=4.0",
+    "channels-redis>=4.2",
+    "celery>=5.4",
+    "redis>=5.0",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
